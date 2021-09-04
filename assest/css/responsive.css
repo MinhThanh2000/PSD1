@@ -10,7 +10,7 @@
         align-items: center;
         justify-content: space-between;
     }
-    .header__main-menu {
+    .nav__pc {
         display: none;
     }
     .header__main-logo {
@@ -86,6 +86,12 @@
     }
     .header__search-input-body {
         width: 300px;
+    }
+    .nav__mobile {
+        width: 300px;
+    }
+    .header__main-menu-mobile-link {
+        padding: 12px 16px;
     }
     .header__main-cart-list {
         width: 260px;

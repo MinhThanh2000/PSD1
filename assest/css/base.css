@@ -50,12 +50,15 @@ img {
     background-color: var(--black-color);
     padding: 12px 24px;
     transition: 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.7;
 }
 
 .btn-black:hover {
     background-color: var(--black-color);
     color: var(--white-color);
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .btn {
@@ -74,6 +77,8 @@ img {
     justify-content: center;
     align-items: center;
     line-height: 1.6rem;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .btn.btn--primary {
