@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assest/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="assest/css/base.css">
+    <link rel="stylesheet" href="assest/css/main.css">
+    <link rel="stylesheet" href="assest/css/grid.css">
+    <link rel="stylesheet" href="assest/css/responsive.css">
+    <title>HTML-CSS-PSD_1</title>
+</head>
+
+<body>
+    <div id="app">
+
+        <header id="header">
+            <div class="grid wide">
+                <div class="header__top ">
+                    <ul class="header__top-list">
+                        <li class="header__top-item">
+                            <a href="" class="header__top-link">
+                                <i class="far fa-clock header__top-icon"></i> Thứ 2 - thứ 7: 8:00am - 20:00am
+                            </a>
+                        </li>
+                        <li class="header__top-item">
+                            <a href="" class="header__top-link">
+                                <i class="far fa-envelope header__top-icon"></i> support2021@unitop.vn
+                            </a>
+                        </li>
+                        <li class="header__top-item">
+                            <a href="" class="header__top-link">
+                                <i class="fas fa-phone-alt header__top-icon"></i> 09888.59.692
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="header__border"></div>
+            <div class="grid wide">
+                <div class="header__main">
+                    <div class="header__main-category-mobile-tablet">
+                        <i class="fas fa-list-ul header__main-category-icon"></i>
+                    </div>
+                    <div class="header__main-logo">
+                        <a href="index.html" class="header__main-logo-link">
+                            <span class="header__main-logo-text">Uni</span>top
+                        </a>
+                    </div>
+
+                    <ul class="header__main-menu ">
+                        <li class="header__main-menu-item header__main-menu-item--active">
+                            <a href="" class="header__main-menu-link ">Trang chủ</a>
+                        </li>
+                        <li class="header__main-menu-item">
+                            <a href="" class="header__main-menu-link">Giới thiệu</a>
+                        </li>
+                        <li class="header__main-menu-item">
+                            <a href="" class="header__main-menu-link">Giày</a>
+                        </li>
+
+
+                        <li class="header__main-menu-item">
+                            <a href="" class="header__main-menu-link">Túi xách
+                                <i class="fas fa-chevron-down header__main-menu-icon"></i>
+                            </a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu-item">
+                                    <a href="" class="sub__menu-link">Túi xách tay nữ</a>
+                                </li>
+                                <li class="sub__menu-item">
+                                    <a href="" class="sub__menu-link">Túi đeo chéo nữ</a>
+                                </li>
+                                <li class="sub__menu-item">
+                                    <a href="" class="sub__menu-link">Túi bản to</a>
+                                </li>
+                                <li class="sub__menu-item">
+                                    <a href="" class="sub__menu-link">Túi đeo vai</a>
+                                </li>
+                                <li class="sub__menu-item">
+                                    <a href="" class="sub__menu-link">Túi chéo hàng hiệu chất </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="header__main-menu-item">
+                            <a href="" class="header__main-menu-link">Áo thun</a>
+                        </li>
+                        <li class="header__main-menu-item">
+
+                            <a href="" class="header__main-menu-link">Đồng hồ</a>
+                        </li>
+
+                        <li class="header__main-menu-item  ">
+                            <a href="" class="header__main-menu-link">Blog</a>
+                        </li>
+                        <li class="header__main-menu-item  ">
+                            <a href="" class="header__main-menu-link ">Liên hệ</a>
+                        </li>
+                    </ul>
+
+                    <div class="header__main-search-cart">
+
+                        <div class="header__main-search">
+                            <div class="header__main-search-wrap">
+                                <i class="fas fa-search header__main-search-icon"></i>
+                                <div class="header__search-input-wrap">
+                                    <div class="header__search-input-body">
+                                        <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm tại đây">
+                                        <button class="header__search-input-btn btn btn--primary">
+                                                    <i class="fas fa-search"></i>
+                                        </button>
+                                        <!-- <div class="header__search-history">
+                                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                            <ul class="header__search-list">
+                                                <li class="header__search-item">
+                                                    <a href="" class="header__search-link">Quần áo nam</a>
+                                                </li>
+                                                <li class="header__search-item">
+                                                    <a href="" class="header__search-link">Quần áo nữ</a>
+                                                </li>
+                                                <li class="header__search-item">
+                                                    <a href="" class="header__search-link">Giày nam</a>
+                                                </li>
+                                            </ul>
+                                        </div> -->
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="header__main-cart">
+                            <div class="header__main-cart-wrap">
+                                <i class="fas fa-cart-plus header__main-cart-icon"></i>
+                                <span class="header__cart-notice">5</span>
+                                <!-- header__main-cart-list--no-cart  -->
+                                <div class="header__main-cart-list  ">
+                                    <img src="/assest/img/empty_cart.png" alt="cart" class="header__main-cart-no-cart-img">
+                                    <span class="header__main-cart-no-cart--text">Chưa có sản phẩm</span>
+                                    <h4 class="header__main-cart-heading">Sản Phẩm Mới Thêm</h4>
+                                    <ul class="heading__main-cart-list">
+                                        <li class="heading__main-cart-item">
+                                            <div class="header__main-car--img" style="background-image: url(&quot;https://cf.shopee.vn/file/dd336ef01d4c8a7eea069cff2206ed5a_tn&quot;);"></div>
+                                            <div class="header__main-cart-item--info ">
+                                                <div class="header__main-car-item--info-head ">
+                                                    <h5 class="header__main-car-item--name ">Áo khoắc nam chất vải siêu đẹp Áo khoắc nam chất vải siêu đẹp siêu đẹp Áo khoắc nam chất vải siêu đẹp
+                                                    </h5>
+                                                    <span class="header__main-car-item--price">2.000.000đ</span>
+                                                </div>
+                                                <div class="header__main-car-item--info-body ">
+                                                    <span class="header__main-car-item--delete">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="heading__main-cart-item">
+                                            <div class="header__main-car--img" style="background-image: url(&quot;https://cf.shopee.vn/file/dd336ef01d4c8a7eea069cff2206ed5a_tn&quot;);"></div>
+                                            <div class="header__main-cart-item--info ">
+                                                <div class="header__main-car-item--info-head ">
+                                                    <h5 class="header__main-car-item--name ">Áo khoắc nam chất vải siêu đẹp Áo khoắc nam chất vải siêu đẹp siêu đẹp Áo khoắc nam chất vải siêu đẹp
+                                                    </h5>
+                                                    <span class="header__main-car-item--price">2.000.000đ</span>
+                                                </div>
+                                                <div class="header__main-car-item--info-body ">
+                                                    <span class="header__main-car-item--delete">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="heading__main-cart-item">
+                                            <div class="header__main-car--img" style="background-image: url(&quot;https://cf.shopee.vn/file/dd336ef01d4c8a7eea069cff2206ed5a_tn&quot;);"></div>
+                                            <div class="header__main-cart-item--info ">
+                                                <div class="header__main-car-item--info-head ">
+                                                    <h5 class="header__main-car-item--name ">Áo khoắc nam chất vải siêu đẹp Áo khoắc nam chất vải siêu đẹp siêu đẹp Áo khoắc nam chất vải siêu đẹp
+                                                    </h5>
+                                                    <span class="header__main-car-item--price">50.000.000đ</span>
+                                                </div>
+                                                <div class="header__main-car-item--info-body ">
+                                                    <span class="header__main-car-item--delete">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="heading__main-cart-item">
+                                            <div class="header__main-car--img" style="background-image: url(&quot;https://cf.shopee.vn/file/dd336ef01d4c8a7eea069cff2206ed5a_tn&quot;);"></div>
+                                            <div class="header__main-cart-item--info ">
+                                                <div class="header__main-car-item--info-head ">
+                                                    <h5 class="header__main-car-item--name ">Áo khoắc nam chất vải siêu đẹp
+                                                    </h5>
+                                                    <span class="header__main-car-item--price">20.000.000đ</span>
+                                                </div>
+                                                <div class="header__main-car-item--info-body ">
+                                                    <span class="header__main-car-item--delete">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="heading__main-cart-item">
+                                            <div class="header__main-car--img" style="background-image: url(&quot;https://cf.shopee.vn/file/dd336ef01d4c8a7eea069cff2206ed5a_tn&quot;);"></div>
+                                            <div class="header__main-cart-item--info ">
+                                                <div class="header__main-car-item--info-head ">
+                                                    <h5 class="header__main-car-item--name ">Áo khoắc nam chất vải siêu đẹp Áo khoắc nam chất vải siêu đẹp siêu đẹp Áo khoắc nam chất vải siêu đẹp
+                                                    </h5>
+                                                    <span class="header__main-car-item--price">100.000.000đ</span>
+                                                </div>
+                                                <div class="header__main-car-item--info-body ">
+                                                    <span class="header__main-car-item--delete">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+
+        <section class="slidershow">
+            <div class="sliders">
+
+                <input type="radio" id="r1" name="radio-btn">
+                <input type="radio" id="r2" name="radio-btn">
+                <input type="radio" id="r3" name="radio-btn">
+
+
+                <div class="slider s1">
+                    <img src="./assest/img/slider.jpg" alt="slider" class="slider__img">
+                    <div class="slider__content">
+                        <p class="slider__text">Giảm Giá 30%</p>
+                        <h1 class="slider__heading">Áo Len Hàn Quốc</h1>
+                        <p class="slider__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis</p>
+                        <a href="#" class="slider__button btn-black ">Mua ngay</a>
+
+                    </div>
+                </div>
+
+                <div class="slider ">
+                    <img src="./assest/img/slider2.jpeg" alt="slider" class="slider__img">
+                </div>
+                <div class="slider ">
+                    <img src="./assest/img/slider3.jpeg" alt="slider" class="slider__img">
+                </div>
+
+                <div class="nav_slider">
+                    <label for="r1" class="bar"></label>
+                    <label for="r2" class="bar"></label>
+                    <label for="r3" class="bar"></label>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="content">
+            <section class="support">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="support__item">
+
+                                <span class="support__item-text">
+                                    <p class="support__item-icon">
+                                        <i class="fas fa-hands "></i>
+
+                                    </p>
+                                    <p class="support__item-name"> Đổi trả trong 30 ngày</p>
+                                   
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="support__item">
+                                <span class="support__item-text">
+                                    <p class="support__item-icon">
+
+                                        <i class="fas fa-headphones "></i>
+                                    </p>
+                                    <p class="support__item-name">Hỗ trợ 24/7 09888.59.692</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="support__item">
+
+                                <span class="support__item-text">
+                                    <p class="support__item-icon">
+                                        <i class="fas fa-truck "></i>
+                                    </p>
+                                    
+                                    <p class="support__item-name">Miễn phí ship toàn quốc</p>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </section>
+            <section class="product">
+                <div class="grid wide ">
+                    <div class="product-new">
+                        <div class="product__title">
+                            <h2 class=" product__heading">Sản Phẩm Mới</h2>
+                            <p class=" product__desc">Những sản phẩm xu thế của 2021 được ưu chuộng</p>
+                        </div>
+                        <div class="row ">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-4.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Túi xách hiệu JAKA Nhật Bản </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-3.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Đồng hồ hiệu Casio Xuất Xứ Trung Quốc </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-5.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Váy Hiệu Chất Lượng Cao Nhập Khẩu Nhật Bản và Xuất Xứ từ, Tây Ban Nha, Hi Lạp </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-2.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Giày Cao Cấp Sản Xuất Tại Pháp</p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-4.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Túi xách hiệu JAKA Nhật Bản </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-3.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Đồng hồ hiệu Casio Xuất Xứ Trung Quốc </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-5.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Váy Hiệu Chất Lượng Cao Nhập Khẩu Nhật Bản và Xuất Xứ từ, Tây Ban Nha, Hi Lạp </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-2.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Giày Cao Cấp Sản Xuất Tại Pháp</p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="category">
+                        <div class="row sm__gutter">
+                            <div class="col l-6 m-6 c-12 ">
+                                <div class="category__item">
+                                    <img src="./assest/img/category-1.jpg" alt="" class="category__img">
+                                    <div class="category__body">
+                                        <h2 class="category__heading">Giày</h2>
+                                        <a href="#" class="category__button btn-black">Xem thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12 ">
+                                <div class="category__item">
+                                    <div class="row sm__gutter">
+                                        <div class="col l-12 m-12 c-12">
+                                            <div class="category__item-right">
+                                                <img src="./assest/img/category-2.jpg" alt="" class="category__img category__img-active">
+                                            </div>
+
+                                        </div>
+                                        <div class="col l-12 m-12 c-12">
+                                            <div class="category__item-right">
+                                                <img src="./assest/img/category-3.jpg" alt="" class="category__img category__img-active">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="product-featute">
+                        <div class="product__title">
+                            <h2 class=" product__heading">Bán chạy</h2>
+                            <p class=" product__desc">Bộ sưu tập những sản phẩm bán chạy nhất hệ thống, bây giờ là của bạn</p>
+                        </div>
+                        <div class="row ">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-12.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Túi xách hiệu JAKA Nhật Bản </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-11.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Túi xách hiệu JAKA Nhật Bản </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-6.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Túi xách hiệu JAKA Nhật Bản </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="#" class="product__item">
+                                    <img src="./assest/img/sp-4.jpg" alt="" class="product_img">
+                                    <div class="product-info">
+                                        <div class="product__vote">
+                                            <div class="product__star">
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                                <span class="product__star-item"><i class="fas fa-star"></i></span>
+                                            </div>
+                                            <span class="product__cmt">(8 nhận xét)</span>
+
+                                        </div>
+                                        <p class="product__name">Túi xách hiệu JAKA Nhật Bản </p>
+                                        <span class="product__price">1.200.000đ</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-feature__page ">
+                            <span class="feature__page feature__page--active">
+                                <i class="fas fa-chevron-left feature__page-icon"></i>
+                            </span>
+                            <span class="feature__page">
+                                <i class="fas fa-chevron-right feature__page-icon"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="share">
+                <div class="grid wide">
+                    <div class="share-wrap">
+                        <div class="share__title">
+                            <h2 class=" share__heading">Chia sẻ</h2>
+                            <p class=" share__desc">Những bài viết mới về thời trang, bạn có thể xem bây giờ</p>
+                        </div>
+                        <div class="row ">
+                            <div class="col l-4 m-6 ">
+                                <a href="#" class="share__item">
+                                    <img src="./assest/img/post-1.jpg" alt="" class="share__img">
+                                    <div class="share__info">
+                                        <p class="share__info_desc">Thời trang</p>
+                                        <h2 class="share__info-title"> 5 mẹo cơ bản phối đồ</h2>
+                                        <p class="share__info-day"> June 10, 2021</p>
+                                        <span class="share__info-tips">Tips and tricks that most people wouldn't highlight when colors.</span>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-4 m-6">
+                                <a href="#" class="share__item">
+                                    <img src="./assest/img/post-2.jpg" alt="" class="share__img">
+                                    <div class="share__info">
+                                        <p class="share__info_desc">Thời trang</p>
+                                        <h2 class="share__info-title"> 5 mẹo cơ bản phối đồ</h2>
+                                        <p class="share__info-day"> June 10, 2021</p>
+                                        <span class="share__info-tips">Tips and tricks that most people wouldn't highlight when colors.</span>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-4 m-6">
+                                <a href="#" class="share__item">
+                                    <img src="./assest/img/post-3.jpg" alt="" class="share__img">
+                                    <div class="share__info">
+                                        <p class="share__info_desc">Thời trang</p>
+                                        <h2 class="share__info-title"> 5 mẹo cơ bản phối đồ</h2>
+                                        <p class="share__info-day"> June 10, 2021</p>
+                                        <span class="share__info-tips">Tips and tricks that most people wouldn't highlight when colors. Where are you now love to me.aaaaaaaaaaaa</span>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="#" class="share__button btn-black">Xem Thêm</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="content">
+                <div class="grid wide">
+                    <div class="footer__content">
+                        <div class="row sm__gutter-footer">
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer__wrap">
+                                    <h2 class="footer__heading">Địa chỉ</h2>
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link"><i class="fas fa-map-marker-alt footer__icon"></i>Tòa nhà N01T5 Ngoại giao Đoàn, 
+                                                Bắc Từ Liêm, Hà Nội</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link"><i class="far fa-envelope header__top-icon footer__icon"></i>09888.59.692</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link"><i class="fas fa-phone-alt header__top-icon footer__icon"></i>support@unitop.vn</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer__wrap">
+                                    <h2 class="footer__heading">Giới thiệu</h2>
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link">Về chúng tôi</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link">Cách đặt hàng</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link">kiểm tra hàng</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link">Hỗ trợ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer__wrap">
+                                    <h2 class="footer__heading">Danh mục</h2>
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link">Giày thể thao</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link">Váy</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link">Mắt kính</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link">Túi xách</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="footer__wrap">
+                                    <h2 class="footer__heading">Social</h2>
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link"><i class="fab fa-facebook-f footer__icon"></i>Facebook</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link"><i class="fab fa-youtube footer__icon"></i>Youtube</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="" class="footer__link"><i class="fab fa-twitter footer__icon"></i>Twitter</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__bottom-text">© 2019 - 2025 UNITOP ACADEMY - UNITOP.VN</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
